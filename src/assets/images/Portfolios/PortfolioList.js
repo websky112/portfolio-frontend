@@ -100,9 +100,9 @@ export const PORTFOLIOS = [
         from the product by more than 300% compared to its previous performance.
       </>
     ),
-    functionalities: (
-      <>Label recognition using OCR, Navigation, Animations, Charts</>
-    ),
+    challenges: "",
+    functionalities:
+      "Label recognition using OCR, Navigation, Animations, Charts, Auto-Deployment using AppCenter",
     pictures: [
       { id: 1, img: "" },
       { id: 1, img: "" },
@@ -117,8 +117,13 @@ export const PORTFOLIOS = [
     stack: "React.js, Next.js, Encryption",
     route: "/work/cse",
     logo: CSELogo,
-    externalLink: "https://www.motorplatform.com.au/features",
-    description: "",
+    externalLink: "https://cseinsurance.com/",
+    description:
+      "CSE is an insurance company that provides multi-line provider of property and casualty insurances. I was hired as a senior security front-end engineer and built a SaaS product which manages the operations for home and motor insurances.",
+    features: "Security on Front-end side",
+    challenges: "",
+    functionalities:
+      "SSR(Next.js), Request/Response Payload Encryption(md5), Form Redirection, Redis cache, ",
     pictures: [
       { id: 1, img: "" },
       { id: 1, img: "" },
@@ -134,7 +139,6 @@ export const PORTFOLIOS = [
     route: "/work/blip",
     logo: BlipLogo,
     externalLink: "https://www.motorplatform.com.au/features",
-    description: "",
     pictures: [
       { id: 1, img: "" },
       { id: 1, img: "" },

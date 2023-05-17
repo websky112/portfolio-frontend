@@ -63,7 +63,7 @@ export const Portfolio = () => {
       <h3 className="text-3xl font-semibold text-white mt-16 mb-5">
         Challenges
       </h3>
-      <p className="text-lg text-white">{data.functionalities}</p>
+      <p className="text-lg text-white">{data.challenges}</p>
     </div>
   );
 };
