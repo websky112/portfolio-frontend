@@ -1,6 +1,6 @@
 import { useMemo } from "react";
-import { useLocation } from "react-router-dom";
-import { BsLink45Deg } from "react-icons/bs";
+import { Link, useLocation } from "react-router-dom";
+import { BsArrowLeftShort, BsLink45Deg } from "react-icons/bs";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Scrollbar } from "swiper";
 
@@ -19,7 +19,13 @@ export const Portfolio = () => {
 
   return (
     <div className="w-full p-8 lg:p-12 xl:p-16 pt-28 lg:pt-28 xl:pt-28">
-      <div className="text-white text-6xl font-bold mb-4 flex gap-4 items-center">
+      <div className="text-white text-6xl font-bold my-8 flex gap-4 items-center">
+        <Link
+          to={-1}
+          className="w-14 h-14 mt-1 rounded-full flex justify-center items-center hover:bg-green-950"
+        >
+          <BsArrowLeftShort />
+        </Link>
         {data.label}
         <a
           href={data.externalLink}
@@ -48,13 +54,15 @@ export const Portfolio = () => {
         <SwiperSlide>Slide 8</SwiperSlide>
         <SwiperSlide>Slide 9</SwiperSlide>
       </Swiper>
-      <h3 className="text-3xl font-semibold text-white mt-20 mb-6">Features</h3>
+      <h3 className="text-3xl font-semibold text-white mt-16 mb-5">Features</h3>
       <p className="text-lg text-white">{data.features}</p>
-      <h3 className="text-3xl font-semibold text-white mt-20 mb-6">
+      <h3 className="text-3xl font-semibold text-white mt-16 mb-5">
         Core functionalities
       </h3>
       <p className="text-lg text-white">{data.functionalities}</p>
-      <h3 className="text-3xl font-semibold text-white mt-20">Challenges</h3>
+      <h3 className="text-3xl font-semibold text-white mt-16 mb-5">
+        Challenges
+      </h3>
       <p className="text-lg text-white">{data.functionalities}</p>
     </div>
   );

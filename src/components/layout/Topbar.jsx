@@ -6,7 +6,7 @@ export const Topbar = () => {
   const { pathname } = useLocation();
 
   return (
-    <div className="fixed z-10 w-full h-20 flex justify-between items-center px-16">
+    <div className="fixed z-10 w-full h-20 flex justify-between items-center px-16 bg-black">
       <div className="flex gap-8 items-center">
         <img
           src={Me}

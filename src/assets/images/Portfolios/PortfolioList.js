@@ -74,8 +74,35 @@ export const PORTFOLIOS = [
     stack: "React Native, AWS, Node.js",
     route: "/work/vivino",
     logo: VivinoLogo,
-    externalLink: "https://www.motorplatform.com.au/features",
-    description: "",
+    externalLink: "https://www.vivino.com/app",
+    description:
+      "Vivino is a popular online wine marketplace and community that allows users to discover, rate, review, and purchase wines.",
+    features: (
+      <>
+        During my tenure at Vivino, I contributed to the development of key
+        features that significantly contributed to the popularity and success of
+        the application. <br />
+        Here are the features that I worked on: <br />
+        <br />
+        <p className="text-base ml-4">
+          <b>Label Recognition: </b> One of the standout features of Vivino is
+          its label recognition technology. Users can take a photo of a wine
+          label using the Vivino app, and the platform's image recognition
+          software provides information about the wine, including ratings,
+          reviews, and pricing. <br />
+          <b>Wine Ratings and Reviews: </b>The platform enables users to rate
+          and review wines they have tasted, providing feedback and sharing
+          their experiences with other Vivino users. This feature helps fellow
+          wine enthusiasts make informed decisions when purchasing wine.
+        </p>
+        <br />
+        By introducing these features, Vivino was able to increase its revenue
+        from the product by more than 300% compared to its previous performance.
+      </>
+    ),
+    functionalities: (
+      <>Label recognition using OCR, Navigation, Animations, Charts</>
+    ),
     pictures: [
       { id: 1, img: "" },
       { id: 1, img: "" },
