@@ -1,4 +1,12 @@
+import { useNavigate } from "react-router-dom";
+
 export const PortoflioCard = ({ data }) => {
+  const navigate = useNavigate();
+
+  const handleGoPortfolioPage = () => {
+    navigate(data.route);
+  };
+
   return (
     <div className="w-full overflow-hidden group relative hover:border border-gray-400">
       <img
@@ -16,7 +24,10 @@ export const PortoflioCard = ({ data }) => {
               <p className="text-center text-lg text-gray-200 mb-6">
                 {data.stack}
               </p>
-              <button className="outline-none rounded-sm bg-green-500 text-white py-2 px-6">
+              <button
+                onClick={handleGoPortfolioPage}
+                className="outline-none rounded-sm bg-green-500 text-white py-2 px-6"
+              >
                 View More
               </button>
             </div>
