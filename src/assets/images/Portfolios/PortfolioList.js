@@ -1,8 +1,18 @@
 import BlipLogo from "./Blip/logo.jpg";
 import BlizzfullLogo from "./Blizzfull/logo.jpg";
 import CSELogo from "./CSE/logo.jpg";
+
 import HangarALogo from "./HangarA/logo.jpg";
+import HangarAScreen1 from "./HangarA/screen1.jpeg";
+import HangarAScreen2 from "./HangarA/screen2.png";
+import HangarAScreen3 from "./HangarA/screen3.png";
+import HangarAScreen4 from "./HangarA/screen4.png";
+import HangarAScreen5 from "./HangarA/screen5.png";
+import HangarAScreen6 from "./HangarA/screen6.png";
+import HangarAScreen7 from "./HangarA/screen7.png";
+
 import MotorPlatformLogo from "./MotorPlatform/logo.jpg";
+
 import VivinoLogo from "./Vivino/logo.jpg";
 
 export const PORTFOLIOS = [
@@ -60,13 +70,7 @@ export const PORTFOLIOS = [
       </>
     ),
     challenges: "",
-    pictures: [
-      { id: 1, img: "" },
-      { id: 1, img: "" },
-      { id: 1, img: "" },
-      { id: 1, img: "" },
-      { id: 1, img: "" },
-    ],
+    pictures: [],
   },
   {
     id: 2,
@@ -105,10 +109,10 @@ export const PORTFOLIOS = [
       "Label recognition using OCR, Navigation, Animations, Charts, Auto-Deployment using AppCenter",
     pictures: [
       { id: 1, img: "" },
-      { id: 1, img: "" },
-      { id: 1, img: "" },
-      { id: 1, img: "" },
-      { id: 1, img: "" },
+      { id: 2, img: "" },
+      { id: 3, img: "" },
+      { id: 4, img: "" },
+      { id: 5, img: "" },
     ],
   },
   {
@@ -126,10 +130,10 @@ export const PORTFOLIOS = [
       "SSR(Next.js), Request/Response Payload Encryption(md5), Form Redirection, Redis cache, ",
     pictures: [
       { id: 1, img: "" },
-      { id: 1, img: "" },
-      { id: 1, img: "" },
-      { id: 1, img: "" },
-      { id: 1, img: "" },
+      { id: 2, img: "" },
+      { id: 3, img: "" },
+      { id: 4, img: "" },
+      { id: 5, img: "" },
     ],
   },
   {
@@ -141,10 +145,10 @@ export const PORTFOLIOS = [
     externalLink: "https://www.motorplatform.com.au/features",
     pictures: [
       { id: 1, img: "" },
-      { id: 1, img: "" },
-      { id: 1, img: "" },
-      { id: 1, img: "" },
-      { id: 1, img: "" },
+      { id: 2, img: "" },
+      { id: 3, img: "" },
+      { id: 4, img: "" },
+      { id: 5, img: "" },
     ],
   },
   {
@@ -156,11 +160,13 @@ export const PORTFOLIOS = [
     externalLink: "https://www.motorplatform.com.au/features",
     description: "",
     pictures: [
-      { id: 1, img: "" },
-      { id: 1, img: "" },
-      { id: 1, img: "" },
-      { id: 1, img: "" },
-      { id: 1, img: "" },
+      { id: 1, img: HangarAScreen1 },
+      { id: 2, img: HangarAScreen2 },
+      { id: 3, img: HangarAScreen3 },
+      { id: 4, img: HangarAScreen4 },
+      { id: 5, img: HangarAScreen5 },
+      { id: 6, img: HangarAScreen6 },
+      { id: 7, img: HangarAScreen7 },
     ],
   },
   {
@@ -173,10 +179,10 @@ export const PORTFOLIOS = [
     description: "",
     pictures: [
       { id: 1, img: "" },
-      { id: 1, img: "" },
-      { id: 1, img: "" },
-      { id: 1, img: "" },
-      { id: 1, img: "" },
+      { id: 2, img: "" },
+      { id: 3, img: "" },
+      { id: 4, img: "" },
+      { id: 5, img: "" },
     ],
   },
 ];

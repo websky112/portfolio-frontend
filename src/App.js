@@ -5,6 +5,7 @@ import { Topbar } from "./components/layout";
 
 import "swiper/css";
 import "swiper/css/scrollbar";
+import "swiper/css/navigation";
 import "./App.css";
 
 function App() {
