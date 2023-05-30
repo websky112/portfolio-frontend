@@ -12,6 +12,14 @@ import HangarAScreen6 from "./HangarA/screen6.png";
 import HangarAScreen7 from "./HangarA/screen7.png";
 
 import MotorPlatformLogo from "./MotorPlatform/logo.jpg";
+import MotorPlatformScreen1 from "./MotorPlatform/m1.jpg";
+import MotorPlatformScreen2 from "./MotorPlatform/m2.png";
+import MotorPlatformScreen3 from "./MotorPlatform/m3.png";
+import MotorPlatformScreen4 from "./MotorPlatform/m4.png";
+import MotorPlatformScreen5 from "./MotorPlatform/m5.png";
+import MotorPlatformScreen6 from "./MotorPlatform/m6.png";
+import MotorPlatformScreen7 from "./MotorPlatform/m7.png";
+import MotorPlatformScreen8 from "./MotorPlatform/m8.png";
 
 import VivinoLogo from "./Vivino/logo.jpg";
 
@@ -70,7 +78,16 @@ export const PORTFOLIOS = [
       </>
     ),
     challenges: "",
-    pictures: [],
+    pictures: [
+      { id: 1, img: MotorPlatformScreen1 },
+      { id: 2, img: MotorPlatformScreen2 },
+      { id: 3, img: MotorPlatformScreen3 },
+      { id: 4, img: MotorPlatformScreen4 },
+      { id: 5, img: MotorPlatformScreen5 },
+      { id: 6, img: MotorPlatformScreen6 },
+      { id: 7, img: MotorPlatformScreen7 },
+      { id: 8, img: MotorPlatformScreen8 },
+    ],
   },
   {
     id: 2,
